@@ -1,4 +1,4 @@
-![](https://octodex.github.com/plumber)
+![](https://octodex.github.com/plumber?1)
 
 ![](http://i.imgur.com/y8g506n.png?1)
 
