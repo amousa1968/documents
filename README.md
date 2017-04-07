@@ -1,4 +1,4 @@
-![](https://octodex.github.com/plumber?1)
+![](https://octodex.github.com/plumber)
 
 # documents
 
