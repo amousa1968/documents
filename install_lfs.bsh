@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# this version of the script installs git lfs on winodw using git shell utility command line tool 
+set -eu
+
+git lfs install
+
+git config --global user.email "provide_your_email address"
+git config --global user.name "provide your name or user_name"
+
+cp -ra /download /c/cc_test/install_directory
+cd /c/cc_test/install_directory
+mkdir -p ./c/cc_test/install_directory/git-lfs
+unlink c/cc_test/install_directory/git-lfs/git-lfs || :
+# ln -sf $(pwd) src/github.com/git-lfs/git-lfs
+LFS_BIN=1 GOPATH=$(pwd) ./c/cc_test/install_directory/script/
+LFS_BIN=1 GOPATH=$(pwd) ./c/cc_test/install_directory/script/integration
+
+
+
+
